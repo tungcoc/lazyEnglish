@@ -10,7 +10,7 @@ import Foundation
 import XLPagerTabStrip
 
 class VocabularyViewController: UITableViewController, IndicatorInfoProvider {
-    
+
     var titleVocabulary : [String] = ["hello","run", "navigation","github","game"]
     var meanVocabulary : [String ] = ["xin chao ", "chay", "dieu huong", "git hub", "choi"]
     

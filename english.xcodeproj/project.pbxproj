@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF6037D51D6FFA1300A44DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6037D41D6FFA1300A44DEA /* Main.storyboard */; };
+		DF6037DD1D7023F400A44DEA /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6037DC1D7023F400A44DEA /* VocabularyViewController.swift */; };
 		DFABBD731D65C236009C7ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABBD721D65C236009C7ED7 /* AppDelegate.swift */; };
 		DFABBD7B1D65C236009C7ED7 /* english.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFABBD791D65C236009C7ED7 /* english.xcdatamodeld */; };
 		DFABBD7D1D65C236009C7ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFABBD7C1D65C236009C7ED7 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		DFABBE341D65C72D009C7ED7 /* YoutubeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABBE311D65C72D009C7ED7 /* YoutubeExampleViewController.swift */; };
 		DFABBE351D65C72D009C7ED7 /* YoutubeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABBE321D65C72D009C7ED7 /* YoutubeIconCell.swift */; };
 		DFABBE361D65C72D009C7ED7 /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFABBE331D65C72D009C7ED7 /* YoutubeIconCell.xib */; };
-		DFC983541D6ED18C0034AE01 /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC983531D6ED18C0034AE01 /* VocabularyViewController.swift */; };
 		DFC983581D6ED6C00034AE01 /* QuotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC983571D6ED6C00034AE01 /* QuotationViewController.swift */; };
 		DFC9835A1D6ED7270034AE01 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC983591D6ED7270034AE01 /* MusicViewController.swift */; };
 		DFC9835C1D6ED7570034AE01 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC9835B1D6ED7570034AE01 /* VideoViewController.swift */; };
@@ -45,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		DF6037D41D6FFA1300A44DEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Helpers/Main.storyboard; sourceTree = "<group>"; };
+		DF6037DC1D7023F400A44DEA /* VocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
 		DFABBD6F1D65C236009C7ED7 /* english.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = english.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFABBD721D65C236009C7ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFABBD7A1D65C236009C7ED7 /* english.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = english.xcdatamodel; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		DFABBE311D65C72D009C7ED7 /* YoutubeExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeExampleViewController.swift; sourceTree = "<group>"; };
 		DFABBE321D65C72D009C7ED7 /* YoutubeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeIconCell.swift; sourceTree = "<group>"; };
 		DFABBE331D65C72D009C7ED7 /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
-		DFC983531D6ED18C0034AE01 /* VocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VocabularyViewController.swift; path = ../../VocabularyViewController.swift; sourceTree = "<group>"; };
 		DFC983571D6ED6C00034AE01 /* QuotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotationViewController.swift; sourceTree = "<group>"; };
 		DFC983591D6ED7270034AE01 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		DFC9835B1D6ED7570034AE01 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		DFABBE371D65C777009C7ED7 /* ChildControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DFC983531D6ED18C0034AE01 /* VocabularyViewController.swift */,
+				DF6037DC1D7023F400A44DEA /* VocabularyViewController.swift */,
 				DFC983571D6ED6C00034AE01 /* QuotationViewController.swift */,
 				DFC983591D6ED7270034AE01 /* MusicViewController.swift */,
 				DFC9835B1D6ED7570034AE01 /* VideoViewController.swift */,
@@ -269,10 +269,10 @@
 				DFC983611D6F06590034AE01 /* SettingViewController.swift in Sources */,
 				DFABBE2D1D65C720009C7ED7 /* DataProvider.swift in Sources */,
 				DFC9835C1D6ED7570034AE01 /* VideoViewController.swift in Sources */,
-				DFC983541D6ED18C0034AE01 /* VocabularyViewController.swift in Sources */,
 				DFABBD731D65C236009C7ED7 /* AppDelegate.swift in Sources */,
 				DFC9835A1D6ED7270034AE01 /* MusicViewController.swift in Sources */,
 				DFC983581D6ED6C00034AE01 /* QuotationViewController.swift in Sources */,
+				DF6037DD1D7023F400A44DEA /* VocabularyViewController.swift in Sources */,
 				DFABBE2E1D65C720009C7ED7 /* PostCell.swift in Sources */,
 				DFABBE351D65C72D009C7ED7 /* YoutubeIconCell.swift in Sources */,
 				DFABBE341D65C72D009C7ED7 /* YoutubeExampleViewController.swift in Sources */,
