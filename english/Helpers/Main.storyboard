@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xZJ-t7-dCr">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Notification All View Controller-->
+        <scene sceneID="5xQ-zE-NQg">
+            <objects>
+                <viewController id="yg4-oO-hK5" customClass="NotificationAllViewController" customModule="english" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FoC-ZG-XL1"/>
+                        <viewControllerLayoutGuide type="bottom" id="nFT-4F-c3Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wUJ-Zq-7WJ">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRv-Nv-Ypw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.5" y="-750.5"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="0Am-0w-RoN">
+            <objects>
+                <viewController id="DOk-m6-eUc" customClass="SettingViewController" customModule="english" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jH7-6G-hpQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="pwh-sk-xwq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wnP-Pl-yn4">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Blu-Gl-5sa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186.5" y="-750.5"/>
+        </scene>
+        <!--Youtube Example View Controller-->
+        <scene sceneID="0gW-cZ-eh5">
+            <objects>
+                <viewController id="9QP-I2-nJp" customClass="YoutubeExampleViewController" customModule="english" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t3D-Bh-x5g"/>
+                        <viewControllerLayoutGuide type="bottom" id="3iw-zY-Rum"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b3c-oS-3hF">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="gSo-ew-3sk">
+                        <barButtonItem key="leftBarButtonItem" image="iconLazy" width="3" id="G74-xe-asv">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="yg4-oO-hK5" kind="show" identifier="notificationAll" id="dZw-cI-uSN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="more_options" id="zoe-VZ-U8Q">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="DOk-m6-eUc" kind="show" identifier="setting" id="J8a-Ju-I37"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K0g-yZ-LqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.5" y="-20.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H5h-HD-53i">
+            <objects>
+                <viewController id="xZJ-t7-dCr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ymc-KD-RTp"/>
+                        <viewControllerLayoutGuide type="bottom" id="l8D-oN-qOi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VBP-lO-Frt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9X-b8-2NV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75.5" y="-20.5"/>
+        </scene>
+        <!--Nav Controller-->
+        <scene sceneID="DHE-gb-0Kg">
+            <objects>
+                <navigationController storyboardIdentifier="navID" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lY5-pO-COg" customClass="NavController" customModule="english" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="132-eT-jEr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.98039215686274506" green="0.37399884030793523" blue="0.099459324417686526" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9QP-I2-nJp" kind="relationship" relationship="rootViewController" id="bZK-eQ-Lys"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Do5-yu-vLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327.5" y="-20.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconLazy" width="57" height="57"/>
+        <image name="more_options" width="24" height="24"/>
+    </resources>
+</document>
